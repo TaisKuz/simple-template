@@ -1,0 +1,46 @@
+@import "normalize.css";
+@import "reset.css";
+@import "typography.css";
+
+*{
+  box-sizing: border-box;
+}
+
+.main-content-wrapper {
+  width: 100%;
+}
+
+.container {
+  max-width: 1114px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.block-content-wrapper {
+  position: relative;
+}
+
+.first-screen,
+.top-menu,
+.about-us,
+.functions,
+.works,
+.footer
+{
+  width: 100%;
+}
+
+
+@media (min-width: 1024px) {
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 700px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 700px),
+only screen and (                min-resolution: 192dpi) and (min-width: 700px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 700px) {
+
+}
